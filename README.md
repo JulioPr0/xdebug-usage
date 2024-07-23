@@ -31,7 +31,7 @@ Sesuaikan path zend_extension dengan lokasi sebenarnya di mana file Xdebug .dll 
 ```
 sudo pecl install xdebug
 ```
-Pastikan PECL sudah terinstal di sistemnya. Jika belum, bisa menginstalnya dengan Homebrew:
+Pastikan PECL sudah terinstal di sistemnya. Jika belum, bisa menginstalnya dengan [Homebrew](https://brew.sh/):
 ```
 brew install php@8.0
 brew link --overwrite --dry-run php@8.0
